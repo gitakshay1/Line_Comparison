@@ -30,13 +30,18 @@
             }
             Console.WriteLine("Length of First Line is " + Line1);
             Console.WriteLine("Length of Second Line is " + Line2);
-            if(Line1.Equals(Line2))
+            
+            if(Line1.CompareTo(Line2) < 0)
             {
-                Console.WriteLine("Lines are Equal");
+                Console.WriteLine("First Line is lesser than Second Line");
+            }
+            else if (Line1.CompareTo(Line2) > 0)
+            {
+                Console.WriteLine("First Line is greater than Second Line");
             }
             else
             {
-                Console.WriteLine("Lines are not equal");
+                Console.WriteLine("Lines are Equal");
             }
         }
     }
