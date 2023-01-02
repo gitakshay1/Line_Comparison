@@ -1,1 +1,1 @@
-# Line_Comparison
+# Welcome to Line Comparison Computation Program
